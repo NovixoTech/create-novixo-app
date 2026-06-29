@@ -1,0 +1,32 @@
+{
+  "name": "create-novixo-app",
+  "version": "1.0.0",
+  "description": "Scaffold a new project pre-wired with the NovixoTech ecosystem",
+  "main": "index.js",
+  "bin": {
+    "create-novixo-app": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "kleur": "^4.1.5",
+    "prompts": "^2.4.2"
+  },
+  "keywords": [
+    "novixo",
+    "offline-first",
+    "ai",
+    "react",
+    "scaffold",
+    "cli",
+    "starter"
+  ],
+  "author": "NovixoTech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NovixoTech/create-novixo-app.git"
+  }
+}
